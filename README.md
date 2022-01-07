@@ -5,12 +5,7 @@ Activate the mysql server, preferably using xampp and import the recommender.sql
 after uploading the sql file.
 
 Activate the Virtual Environment by typing in the terminal
-1. cd env/scripts/activate
-or
-1. cd env/scripts/
-2. type 'activate' then enter
-After activating the Virtual Environment, return to the Base directory by entering
-1. cd ../..
+1. env\scripts\activate
 
 Then enter the command
 python manage.py runserver
